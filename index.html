@@ -1,62 +1,61 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>行政小管家</title>
 
 <style>
-
 body{
-    margin:0;
-    background:#f4f7fb;
-    font-family:-apple-system,BlinkMacSystemFont;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
+margin:0;
+padding:0;
+font-family:-apple-system,BlinkMacSystemFont;
+background:#f4f7fb;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
 }
 
 .card{
-    width:90%;
-    max-width:420px;
-    background:#fff;
-    border-radius:28px;
-    padding:48px 32px;
-    text-align:center;
-    box-shadow:0 10px 40px rgba(0,0,0,.08);
+background:white;
+width:320px;
+padding:30px;
+border-radius:24px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+text-align:center;
 }
 
-h1{
-    font-size:34px;
-    color:#2b5cff;
-    margin-bottom:18px;
+.title{
+font-size:28px;
+font-weight:700;
+margin-bottom:12px;
+color:#222;
 }
 
-p{
-    color:#666;
-    line-height:1.8;
-    font-size:16px;
+.desc{
+font-size:15px;
+color:#666;
+line-height:1.6;
+margin-bottom:30px;
 }
 
-.btn{
-    display:inline-block;
-    margin-top:36px;
-    background:#2b5cff;
-    color:white;
-    text-decoration:none;
-    padding:18px 42px;
-    border-radius:999px;
-    font-size:18px;
-    font-weight:600;
+.button{
+display:block;
+background:#2A73FF;
+color:white;
+text-decoration:none;
+padding:16px;
+border-radius:16px;
+font-size:18px;
+font-weight:600;
 }
 
 .tip{
-    margin-top:22px;
-    font-size:13px;
-    color:#999;
+margin-top:20px;
+font-size:12px;
+color:#999;
 }
-
 </style>
 </head>
 
@@ -64,22 +63,21 @@ p{
 
 <div class="card">
 
-<h1>行政小管家</h1>
+<div class="title">
+行政小管家
+</div>
 
-<p>
-点击下方按钮<br>
-进入企业微信行政小管家
-</p>
+<div class="desc">
+点击下方按钮进入企业微信应用
+</div>
 
-<a class="btn"
+<a class="button"
 href="wecom://biz/wwapp/open?appid=wwae40fd73f7b45546&agentid=1000006">
-
 进入行政小管家
-
 </a>
 
 <div class="tip">
-请使用企业微信打开
+请在企业微信内打开
 </div>
 
 </div>
